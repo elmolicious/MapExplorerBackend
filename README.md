@@ -17,3 +17,7 @@ There are a few things you need to do to set it up (I didnt find time to host it
 *Enter a valid api key in {projectRoot}/config/default.json (I removed mine for obvious reasons)
 
 *start the backend by executing 'node app.js' in the projectRoot in a shell ('npm run run' should also work)
+
+## Notes ##
+
+The backend runs on the port 8080, this can also be changed in the config if 8080 is already used
