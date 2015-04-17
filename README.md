@@ -1,31 +1,19 @@
-TBD
+If you didnt come here from the MapExplorer Readme please visit it first
 
-# README #
+## What is this repository for? ##
 
-This README would normally document whatever steps are necessary to get your application up and running.
+*It provides the data for the app since i dont want to use my riot api key in clientside javascript
 
-### What is this repository for? ###
+## How do I get set up? ##
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+There are a few things you need to do to set it up (I didnt find time to host it online)
 
-### How do I get set up? ###
+*There needs to be NODE.js and NPM (Node Package Manager) installed (https://nodejs.org/)
+*Npm should come default with the node installation
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+*Before running it is required to install dependencies (aka node packages), in the root dir execute the command :
+'npm install'; it should install 5 packages (async, config, lodash, needle, restify)
 
-### Contribution guidelines ###
+*Enter a valid api key in {projectRoot}/config/default.json (I removed mine for obvious reasons)
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+*start the backend by executing 'node app.js' in the projectRoot in a shell ('npm run run' should also work)
