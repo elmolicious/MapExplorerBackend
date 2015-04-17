@@ -4,6 +4,10 @@ If you didnt come here from the MapExplorer Readme please visit it first
 
 *It provides the data for the app since i dont want to use my riot api key in clientside javascript
 
+## Technology used ##
+
+Node.js (Backend Javascript)
+
 ## How do I get set up? ##
 
 There are a few things you need to do to set it up (I didnt find time to host it online)
