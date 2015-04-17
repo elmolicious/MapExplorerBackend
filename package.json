@@ -1,0 +1,17 @@
+{
+  "name": "map_explorer_data_loader",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js"
+  },
+  "author": "Robin Genske",
+  "license": "free to use and alter",
+  "dependencies": {
+    "async": "^0.9.0",
+    "config": "^1.12.0",
+    "lodash": "^3.6.0",
+    "needle": "^0.9.1",
+    "restify": "^3.0.2"
+  }
+}

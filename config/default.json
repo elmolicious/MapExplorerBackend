@@ -1,0 +1,26 @@
+{
+  "api_key": "Enter Api Key Here",
+  "endpoints": {
+    "euw": "euw.api.pvp.net",
+    "na": "eune.api.pvp.net",
+    "eune": "na.api.pvp.net",
+    "global" : "global.api.pvp.net"
+  },
+  "routes": {
+    "match": "/api/lol/{0}/v2.2/match/{1}",
+    "summoner": "/api/lol/{0}/v1.4/summoner/by-name/{1}",
+    "game": "/api/lol/{0}/v1.3/game/by-summoner/{1}/recent",
+    "api_challenge": "/api/lol/{0}/v4.1/game/ids",
+    "static" : {
+      "map" : "/api/lol/static-data/{0}/v1.2/map",
+      "champion" : "/api/lol/static-data/{0}/v1.2/champion",
+      "item" : "/api/lol/static-data/{0}/v1.2/item",
+      "summoner_spell" : "/api/lol/static-data/{0}/v1.2/summoner-spell"
+    }
+  },
+  "port" : 8080,
+  "static_data" : {
+    "endpoint" : "http://ddragon.leagueoflegends.com/cdn/{0}",
+    "version" : "5.2.1"
+  }
+}
